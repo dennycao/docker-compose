@@ -1,0 +1,6 @@
+version: '2'
+services:
+  workflow:
+    image: "sinitek-cloud-workflow:1.0.0-SNAPSHOT"
+    ports:
+     - "8085:8080"
